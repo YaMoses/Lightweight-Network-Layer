@@ -13,6 +13,10 @@
 		82A5295E29D1D43B00C975AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A5295C29D1D43B00C975AE /* Main.storyboard */; };
 		82A5296029D1D43E00C975AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A5295F29D1D43E00C975AE /* Assets.xcassets */; };
 		82A5296329D1D43E00C975AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A5296129D1D43E00C975AE /* LaunchScreen.storyboard */; };
+		82A5296B29D1D46E00C975AE /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A5296A29D1D46E00C975AE /* Endpoints.swift */; };
+		82A5296D29D1D4A800C975AE /* FlickrEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A5296C29D1D4A800C975AE /* FlickrEndpoint.swift */; };
+		82A5296F29D1D4C200C975AE /* FlickrResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A5296E29D1D4C200C975AE /* FlickrResponse.swift */; };
+		82A5297129D1D4DF00C975AE /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A5297029D1D4DF00C975AE /* NetworkEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		82A5295F29D1D43E00C975AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82A5296229D1D43E00C975AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82A5296429D1D43E00C975AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A5296A29D1D46E00C975AE /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		82A5296C29D1D4A800C975AE /* FlickrEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrEndpoint.swift; sourceTree = "<group>"; };
+		82A5296E29D1D4C200C975AE /* FlickrResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrResponse.swift; sourceTree = "<group>"; };
+		82A5297029D1D4DF00C975AE /* NetworkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				82A5295F29D1D43E00C975AE /* Assets.xcassets */,
 				82A5296129D1D43E00C975AE /* LaunchScreen.storyboard */,
 				82A5296429D1D43E00C975AE /* Info.plist */,
+				82A5296A29D1D46E00C975AE /* Endpoints.swift */,
+				82A5296C29D1D4A800C975AE /* FlickrEndpoint.swift */,
+				82A5296E29D1D4C200C975AE /* FlickrResponse.swift */,
+				82A5297029D1D4DF00C975AE /* NetworkEngine.swift */,
 			);
 			path = "Lightweight Network Layer";
 			sourceTree = "<group>";
@@ -140,7 +152,11 @@
 			files = (
 				82A5295B29D1D43B00C975AE /* ViewController.swift in Sources */,
 				82A5295729D1D43B00C975AE /* AppDelegate.swift in Sources */,
+				82A5297129D1D4DF00C975AE /* NetworkEngine.swift in Sources */,
+				82A5296B29D1D46E00C975AE /* Endpoints.swift in Sources */,
+				82A5296D29D1D4A800C975AE /* FlickrEndpoint.swift in Sources */,
 				82A5295929D1D43B00C975AE /* SceneDelegate.swift in Sources */,
+				82A5296F29D1D4C200C975AE /* FlickrResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
