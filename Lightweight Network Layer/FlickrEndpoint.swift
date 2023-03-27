@@ -32,7 +32,8 @@ enum FlickrEndpoint: Endpoints {
     }
     
     var parameters: [URLQueryItem] {
-        let apikey = "b9b28866e9cb88599d9f3bc56137e46b"
+        // set api key, in this case from flickr
+        let apikey = ""
         
         switch self {
         case .getSearchResults(let searchText, let page):
